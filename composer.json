@@ -1,0 +1,21 @@
+{
+    "require": {
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.0",
+        "slim/php-view": "^2.2",
+        "rakibtg/sleekdb": "^1.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+	    "psr-4": {
+	        "App\\": "app/" 
+	    }
+	},
+	"autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
