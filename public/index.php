@@ -8,7 +8,7 @@ use SleekDB\SleekDB;
 
 require __DIR__ . '/../vendor/autoload.php';
 
-$dataDir = __DIR__ . '/..';
+$dataDir = __DIR__ . '/../storage';
 $db = SleekDB::store('db', $dataDir);
 
 $renderer = new PhpRenderer(__DIR__ . '/../views');

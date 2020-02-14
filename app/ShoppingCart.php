@@ -18,7 +18,7 @@ class ShoppingCart {
 
 	public function __construct()
 	{
-		$dataDir = __DIR__ . '/..';
+		$dataDir = __DIR__ . '/../storage';
 
 		$this->db = DB::store('db', $dataDir);
 	}
